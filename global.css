@@ -20,6 +20,7 @@
     background-color: #fff;
     padding: 50px 40px 85px;
     justify-content: space-between;
+    position: relative;
 }
 
 .header__top {
@@ -79,6 +80,13 @@
     text-decoration: none;
     color: #8DA1B5;
 }
+
+.list__item:hover {
+    color: #000;
+}
+
+
+
 .list__item_active {
     color: #272829;
 }
@@ -87,10 +95,35 @@
     display: flex;
     gap: 25px;
     align-items: center;
+    cursor: pointer;
+}
+
+.list__container:hover > svg {
+    stroke: #5E81F4;
+}
+
+.list__container:hover > .list__item {
+    color: #000;
+}
+
+.list__container:hover:after {
+    opacity: 1;
 }
 
 .list__container svg {
     width: 20px;
+}
+
+
+
+.list__container::after {
+    content: '';
+    width: 3px;
+    height: 32px;
+    background-color: #5E81F4;
+    position: absolute;
+    right: 0;
+    opacity: 0;
 }
 
 .header__text {
