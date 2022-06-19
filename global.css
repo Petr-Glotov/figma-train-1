@@ -51,4 +51,14 @@
     color: #8DA1B5;
 }
 
+.list__container {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.list__container svg {
+    width: 20px;
+}
+
 
