@@ -138,18 +138,15 @@
 }
 
 
-.middle__section {
-    width: 944px;
+.middle-section {
+    width: 100%gi;
     padding: 50px 30px 85px 40px;
-    width: 100%;
-
 }
 
-.horizont__place {
+.flex-container {
     display: flex;
     width: 100%;
-    justify-content: space-between; /*Спросить - ничего не меняется, нужно ли свойство?*/
- /*   align-items: center;*/
+    justify-content: space-between;
 }
 
 .search {
@@ -191,28 +188,5 @@
     width: 384px;
     background-color: #fff;
     flex-shrink: 0;
-}
-
-.navy__list {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 50px;
-    font-size: 17px;
-    line-height: 20px;
-    font-weight: bold;
-}
-
-.navy__list_items {
-    text-decoration: none;
-    color: #768492;
-}
-
-.navy__list_active {
-    color: #5E81F4;
-}
-
-.navy {
-    margin-top: 45px;
 }
 
