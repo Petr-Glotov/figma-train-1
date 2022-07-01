@@ -136,52 +136,68 @@
         </section>
 <!--        Правая секция  (профиль)-->
         <section class="sidebar">
-            <div class="flex-container flex-container_center margin-bottom-profile-title flex-container_flex-start flex-container_flex-start_gap">
-                <span class="profile-avatar"><img src="./images/profile-avatar-alexa.png" alt="Profile avatar" /> </span>
-                <p class="profile-title">Alexa Rogue</p>
-                <span class="drop-down-list"></span>
-            </div>
-            <h3 class="profile-course-title">Progress</h3>
-            <div class="flex-container">
-                <span>UI/UX</span>
-                <div>
-                    <h4>UI/UX Design</h4>
-                    <p>Advanced</p>
+            <div class="sidebar-wrapper"> <!--Секция (верхняя) в сайдбаре (профиле)-->
+                <div class="flex-container flex-container_profile-sidebar margin-bottom-profile-sidebar">
+                    <span class="profile-avatar"><img src="./images/profile-avatar-alexa.png" alt="Profile avatar" /> </span>
+                    <p class="profile-title">Alexa Rogue</p>
+                    <span class="drop-down-list"></span>
                 </div>
-                <span>Progress ------</span>
-            </div>
-            <div class="flex-container">
-                <span>Photo</span>
-                <div>
-                    <h4>Photography</h4>
-                    <p>Intermediate</p>
+                <h3 class="profile-course-title">Progress</h3>
+                <div class="flex-container">
+                    <span class="course-task-icon"><img src="./images/ui-ux-icon.svg" alt="UI/UX Design course icon" /></span>
+                    <div class="progress-wrapper">
+                        <h4 class="progress-course-title">UI/UX Design</h4>
+                        <p class="detail-title">Advanced</p>
+                    </div>
+                    <div class="progress-wrapper">
+                        <span class="progress-bar-icon"><img src="./images/ui-ux-progress-bar.svg" alt="UI/UX course progress-bar" /></span>
+                    </div>
                 </div>
-                <span>Progress ------</span>
-            </div>
-            <div class="flex-container">
-                <span>Animation</span>
-                <div>
-                    <h4>Animation</h4>
-                    <p>Advance</p>
+                <div class="flex-container">
+                    <span class="course-task-icon"><img src="./images/photography-icon.svg" alt="Photography course icon" /></span>
+                    <div class="progress-wrapper">
+                        <h4 class="progress-course-title">Photography</h4>
+                        <p class="detail-title">Intermediate</p>
+                    </div>
+                    <div class="progress-wrapper">
+                        <span class="progress-bar-icon"><img src="./images/photography-progress-bar.svg" alt="Photography course progress-bar" /></span>
+                    </div>
                 </div>
-                <span>Progress ------</span>
-            </div>
-            <h3 class="profile-course-title">Upcoming Task</h3>
-            <div class="flex-container">
-                <span>UI/UX</span>
-                <div>
-                    <h4>UI/UX - Discussion</h4>
-                    <p>27 Oct 2020, Tuesday</p>
-                </div>
-            </div>
-            <div class="flex-container">
-                <span>Animation</span>
-                <div>
-                    <h4>Animation - 3D Animation</h4>
-                    <p>27 Oct 2020, Tuesday</p>
+                <div class="flex-container">
+                    <span class="course-task-icon"><img src="./images/animation-icon.svg" alt="Animation course icon" /></span>
+                    <div class="progress-wrapper">
+                        <h4 class="progress-course-title">Animation</h4>
+                        <p class="detail-title">Advance</p>
+                    </div>
+                    <div class="progress-wrapper">
+                        <span class="progress-bar-icon"><img src="./images/animation-progress-bar.svg" alt="Animation course progress-bar" /></span>
+                    </div>
                 </div>
             </div>
-            <span>Download Ohara Now!</span>
+            <div class="sidebar-wrapper">
+                <h3 class="profile-course-title margin-top-title-sidebar">Upcoming Task</h3>
+                <div class="flex-container-task">
+                    <span class="course-task-icon"><img src="./images/ui-ux-task-icon.svg" alt="UI/UX discussion" /></span>
+                    <div class="progress-wrapper">
+                        <h4 class="progress-course-title">UI/UX - Discussion</h4>
+                        <p class="detail-title">27 Oct 2020, Tuesday</p>
+                    </div>
+                </div>
+                <div class="flex-container-task">
+                    <span><img src="./images/3d-animation-task-icon.svg" alt="3D Animation" /></span>
+                    <div class="progress-wrapper">
+                        <h4 class="progress-course-title">Animation - 3D Animation</h4>
+                        <p class="detail-title">27 Oct 2020, Tuesday</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar__bottom sidebar__bottom_margin-top">
+                <p class="download-title">Download Ohara<br /> Now!</p>
+                <div class="app-field">
+                    <span class="download-app"><img src="./images/playmarket-icon.svg" alt="Playmarket icon" /></span>
+                    <span class="download-app"><img src="./images/ios-icon.svg" alt="IOS icon" /></span>
+                </div>
+            </div>
         </section>
     </main>
 </body>

@@ -155,12 +155,15 @@
     align-items: center;
 }
 
-.flex-container_flex-start {
+.flex-container_profile-sidebar {
+    align-items: center;
     justify-content: flex-start;
+    gap: 25px;
 }
 
-.flex-container_flex-start_gap {
-    gap: 25px;
+.flex-container-task {
+    display: flex;
+    gap: 20px;
 }
 
 .search {
@@ -363,9 +366,6 @@
     background-size: contain;
 }
 
-.margin-bottom-profile-title {
-    margin-bottom: 70px;
-}
 
 .profile-course-title {
     color: #000;
@@ -373,3 +373,76 @@
     line-height: 21px;
 }
 
+.margin-bottom-profile-sidebar {
+    margin-bottom: 72px;
+}
+
+.margin-top-title-sidebar {
+    margin-top: 65px;
+}
+
+.course-task-icon {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.progress-course-title {
+    font-size: 16px;
+    line-height: 19px;
+    color: #011F3B;
+}
+
+.detail-title {
+    font-size: 14px;
+    line-height: 17px;
+    color: #83919E;
+}
+
+.progress-bar-icon {
+    width: 104px;
+/*    height: 8px;*/ /*Почему это свойство падлит и как будто создаёт padding-top для картинки progress-bar внутри <span>*/
+}
+
+.sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.progress-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sidebar__bottom {
+    width: 312px;
+    height: 232px;
+    background: url("./images/download-background.svg");
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px 25px;
+}
+
+.sidebar__bottom_margin-top {
+    margin-top: 75px;
+}
+
+.download-title {
+    font-size: 18px;
+    line-height: 24px;
+    color: #011F3B;
+    font-weight: bold;
+}
+
+.download-app {
+    width: 40px;
+    height: 40px;
+}
+
+.app-field {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
